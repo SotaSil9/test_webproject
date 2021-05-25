@@ -8,6 +8,7 @@ def get_weather(url):
     else:
         print("Something wrong")
 
+
 if __name__ == '__main__':
     data = get_weather('http://api.openweathermap.org/data/2.5/weather?q=London&units=metric&appid=f24731cd06c0e3d3dfbd1ac9511fbd9b')
     print(data)
